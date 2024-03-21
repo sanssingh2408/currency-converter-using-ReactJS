@@ -1,0 +1,65 @@
+body{
+    position: relative;
+    background-color: rgb(234,237,240);
+}
+.container{
+    margin: 100px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+img{
+    margin: 90px;
+    max-height: 400px;
+}
+.converter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.title{
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+label{
+    font-size: 1em;
+    font-weight: bold;
+}
+input{
+    background-color: rgb(234,237,240);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.4em;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+select{
+    background-color: rgb(234,237,240);
+    border: none;
+    padding: 15px;
+    font-size: 1em;
+    font-weight: 100;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+option{
+    font-size: 1em;
+}
+button{
+    padding: 10px 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: rgb(138,176,228);
+}
+p{
+    display: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
